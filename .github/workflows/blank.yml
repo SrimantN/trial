@@ -1,0 +1,25 @@
+langchain-chat-demo/
+├─ README.md
+├─ docker-compose.yml
+├─ frontend/
+│  ├─ package.json
+│  ├─ tsconfig.json
+│  ├─ vite.config.ts
+│  ├─ tailwind.config.cjs
+│  ├─ postcss.config.cjs
+│  └─ src/
+│     ├─ main.tsx
+│     ├─ index.css
+│     ├─ App.tsx
+│     └─ components/
+│        └─ LangChainChatDemo.tsx
+└─ backend/
+   ├─ Dockerfile
+   ├─ requirements.txt
+   └─ app/
+      ├─ main.py
+      ├─ api.py
+      ├─ schemas.py
+      ├─ rag_mock.py
+      └─ prompt_templates/
+         └─ recommendation_prompt.txt
