@@ -1,25 +1,7 @@
-langchain-chat-demo/
-├─ README.md
-├─ docker-compose.yml
-├─ frontend/
-│  ├─ package.json
-│  ├─ tsconfig.json
-│  ├─ vite.config.ts
-│  ├─ tailwind.config.cjs
-│  ├─ postcss.config.cjs
-│  └─ src/
-│     ├─ main.tsx
-│     ├─ index.css
-│     ├─ App.tsx
-│     └─ components/
-│        └─ LangChainChatDemo.tsx
-└─ backend/
-   ├─ Dockerfile
-   ├─ requirements.txt
-   └─ app/
-      ├─ main.py
-      ├─ api.py
-      ├─ schemas.py
-      ├─ rag_mock.py
-      └─ prompt_templates/
-         └─ recommendation_prompt.txt
+# Replace <github-username> with your username and choose branch name (main)
+git init
+git checkout -b main
+git add .
+git commit -m "Initial commit — MoneyTransfer POC with composite scoring & multi-LLM"
+git remote add origin https://github.com/<github-srimant>/moneytransfer-poc.git
+git push -u origin main
