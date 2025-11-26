@@ -1,0 +1,3 @@
+run = "bash start-repl.sh"
+language = "bash"
+entrypoint = "start-repl.sh"
