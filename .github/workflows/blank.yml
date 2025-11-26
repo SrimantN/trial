@@ -3,5 +3,5 @@ git init
 git checkout -b main
 git add .
 git commit -m "Initial commit — MoneyTransfer POC with composite scoring & multi-LLM"
-git remote add origin https://github.com/<github-srimant>/moneytransfer-poc.git
+git remote add origin https://github.com/<github-SrimantN>/moneytransfer-poc.git
 git push -u origin main
